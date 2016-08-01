@@ -145,5 +145,4 @@ def votesInfo(message):
     bot.send_message(message.chat.id, result)
     
     
-if __name__ == '__main__':
-     bot.polling(none_stop=True)
+bot.polling(none_stop=True)
